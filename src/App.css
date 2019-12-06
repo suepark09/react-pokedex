@@ -1,22 +1,47 @@
-.App {
+.jumbotron {
+  height: 45vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-container {
+  border: red 1px solid;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.search-bar {
+  width: 90%;
+  border: blue 1px solid;
+}
+
+.gallery {
+  padding: 0px 25px 0px 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: blue 1px solid;
+}
+
+.card-container {
+  margin: 8px;
+}
+
+.card-title {
+  font-size: 14pt !important;
+}
+
+.filter-container {
+  padding: 0px 30px 40px 30px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#filter {
+  margin-right: 10px;
+}
+
+#sort {
+  margin-right: 10px;
 }
